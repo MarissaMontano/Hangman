@@ -107,7 +107,7 @@ void Graphics::DeletBody()
 //spaces for the word to be filled
 void Graphics::AddSpace(int m)
 {
-    for (int i=0; i<m-1; i++)
+    for (int i=0; i<m; i++)
         GameSpace[i] = '_';
 
     cout<< "Word you are guessing: ";
